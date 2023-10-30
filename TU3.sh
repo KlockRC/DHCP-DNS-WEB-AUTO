@@ -897,7 +897,7 @@ done
     do
         echo "deseja amarrar OUTRO ip? (sim/nao)"
         read hostMAR
-            if [[ $hostMAR == "sim" ]] then
+            if [[ $hostMAR == "sim" ]]; then
                 echo "qual é o nome do dispositivo? (sem espaço)"
                 read disp
                 echo "qual é o mac do dispositivo (separado por : )"
