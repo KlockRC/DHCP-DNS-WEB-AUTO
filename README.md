@@ -8,7 +8,7 @@ colocar email no dns
 ftp (com usuarios para web ou normal)
 email se possivel
 criaçao de usuario para as pastas do web
-
+arrumar espaçamento no .db no dns
 
 
 se eu tiver muito loco pra fazer:
