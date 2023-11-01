@@ -4,7 +4,7 @@
 notas para melhoras:
 ip por dhcp
 arrumar indfo do dns
-
+colocar email no dns
 ftp (com usuarios para web ou normal)
 email se possivel
 criaçao de usuario para as pastas do web
