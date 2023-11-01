@@ -10,7 +10,7 @@ email se possivel
 criaçao de usuario para as pastas do web
 arrumar espaçamento no .db no dns
 deixar os menus bonitinho
-
+menu DHCP ta escrito DNS
 
 se eu tiver muito loco pra fazer:
 opçao de modificaçao pro dhcp
