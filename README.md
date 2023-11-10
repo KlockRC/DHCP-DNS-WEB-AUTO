@@ -1,5 +1,6 @@
-# DHCP-DNS-WEB-AUTO
-# praticamente funcionando
+
+# parcialmente funcionando
+# em desenvolvimento
 
 notas para melhoras:
 ip por dhcp
