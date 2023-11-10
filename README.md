@@ -14,7 +14,7 @@ menu DHCP ta escrito DNS
 arrumar amarramento do ip
 FTP
 WEBmail
-
+arrumar os command
 se eu tiver muito loco pra fazer:
 opçao de modificaçao pro dhcp
 site base pra web com git clone
