@@ -1144,6 +1144,8 @@ confMAIL(){
 
 }
 
+ftp(){
+}
 
 if sudo -n true 2>/dev/null; then
     echo "O usuário tem privilégios sudo."
@@ -1162,5 +1164,3 @@ else
 fi
 
 
-ftp(){
-}
