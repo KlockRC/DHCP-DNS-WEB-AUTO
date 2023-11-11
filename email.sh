@@ -152,7 +152,7 @@ menuMAIL(){
                     echo "instalado com sucesso"
                     ;;
                 2)
-                     if [ comand -v postfix &>/dev/null ]; then
+                     if [ command -v postfix &>/dev/null ]; then
                         echo " o programa nao esta instalado "
                         echo "voltando para o menu"
                         sleep 2
@@ -230,15 +230,12 @@ confMAIL(){
     echo "disable_plaintext_auth = no" >> $mailcot1
     sed -i "/$delMAIL/d" "$mailcot1"
     echo "auth_mechanisms = plain login" >> $mailcot1
-    sed -i "/$delMAIL1/d" "$mailcot2"
+    sed -i "\#$delMAIL1#d" "$mailcot2"
     echo "mail_location = maildir:~/Maildir" >> $mailcot2
-    echo "unix_listener /var/spool/postfix/private/auth {" >> $mailcot3
-    echo "    mode = 0666" >> $mailcot3
-    echo "    user = postfix" >> $mailcot3
-    echo "    group = postfix" >> $mailcot3
-    echo "}" >> $mailcot3
+    sed -i '105i\    unix_listener /var/spool/postfix/private/auth {\n        mode = 0666\n        user = postfix\n        group = postfix\n    }' $mailcot3
 }
 
 confWEBMAIL(){
-    
+    echo "jujuba"
 }
+menuCentral
