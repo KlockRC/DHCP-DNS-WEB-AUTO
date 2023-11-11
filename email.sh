@@ -12,6 +12,7 @@ mailcot1="/etc/dovecot/conf.d/10-auth.conf"
 mailcot2="/etc/dovecot/conf.d/10-mail.conf"
 mailcot3="/etc/dovecot/conf.d/10-master.conf"
 delMAIL="auth_mechanisms = plain"
+delMAIL1="mail_location = mbox:~/mail:INBOX=/var/mail/%u"
 
 shopt -s -o nounset
 
@@ -122,7 +123,7 @@ menuMAIL(){
             read opnMAIL
          case "$opnMAIL" in
                 1)
-                    if [ comand -v postfix &>/dev/null ]; then
+                    if [ command -v postfix &>/dev/null ]; then
                         echo " o programa ja esta instalado "
                         echo "voltando para o menu"
                         sleep 2
@@ -195,17 +196,17 @@ menuMAIL(){
                 6)
                     echo "cloneeeeeeeeeeeee"
                     sleep 2
-                    gitclune
+                    
                     ;;
                 7)
-                    echo "modificando"
+                    echo "exibindo lista de usuarios EMAIL"
                     sleep 2
-                    modAP
+                    ls /home
                     ;;
                 8)
-                    echo "apagando"
+                    echo "baixando webmail"
                     sleep 2
-                    delAP
+                    confWEBMAIL
                     ;;
                 9)
                     echo "saindo......"
@@ -229,3 +230,15 @@ confMAIL(){
     echo "disable_plaintext_auth = no" >> $mailcot1
     sed -i "/$delMAIL/d" "$mailcot1"
     echo "auth_mechanisms = plain login" >> $mailcot1
+    sed -i "/$delMAIL1/d" "$mailcot2"
+    echo "mail_location = maildir:~/Maildir" >> $mailcot2
+    echo "unix_listener /var/spool/postfix/private/auth {" >> $mailcot3
+    echo "    mode = 0666" >> $mailcot3
+    echo "    user = postfix" >> $mailcot3
+    echo "    group = postfix" >> $mailcot3
+    echo "}" >> $mailcot3
+}
+
+confWEBMAIL(){
+    
+}
