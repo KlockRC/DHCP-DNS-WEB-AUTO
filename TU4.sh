@@ -1467,7 +1467,7 @@ listDNS(){
             nome_sem_espacos=$(echo "$nome" | sed 's/^[ \t]*//;s/[ \t]*$//')
 
             # Substituir espaços por "_"
-            nome_formatado=$(echo "$nome_sem_espacos" | tr ' ' '')
+            nome_formatado=$(echo "$nome_sem_espacos" | tr -d ' ')
 
             # Remover acentos e caracteres especiais
             nome_limpo=$(echo "$nome_formatado" | iconv -f utf-8 -t ascii//TRANSLIT | tr -cd '[:alnum:]_')
