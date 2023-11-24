@@ -2,20 +2,16 @@
 # parcialmente funcionando
 # em desenvolvimento
 
-notas para melhoras:
-ip por dhcp
-arrumar indfo do dns
-colocar email no dns
-ftp (com usuarios para web ou normal)
-email se possivel
-criaçao de usuario para as pastas do web
-arrumar espaçamento no .db no dns
-deixar os menus bonitinho
-menu DHCP ta escrito DNS
-arrumar amarramento do ip
-FTP
-WEBmail
-arrumar os command
-se eu tiver muito loco pra fazer:
-opçao de modificaçao pro dhcp
-site base pra web com git clone
+# notas para melhoras:
+
+ip por dhcp ---
+arrumar indfo do dns ---
+colocar email no dns ---
+arrumar espaçamento no .db no dns ---
+deixar os menus bonitinho ---
+menu DHCP ta escrito DNS ---
+arrumar os command ---
+
+# se eu tiver muito loco pra fazer:
+opçao de modificaçao pro dhcp ---
+site base pra web com git clone ---
