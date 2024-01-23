@@ -12,7 +12,8 @@ deixar os menus bonitinho ---
 menu DHCP ta escrito DNS ---
 arrumar os command ---
 formata lista pelo script ---
+arrumar o quota ---
 
-# se eu tiver muito loco pra fazer:
+# se a gente tiver muito loco pra fazer:
 opçao de modificaçao pro dhcp ---
 site base pra web com git clone ---
