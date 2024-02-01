@@ -13,6 +13,7 @@ menu DHCP ta escrito DNS ---
 arrumar os command ---
 formata lista pelo script ---
 arrumar o quota ---
+melhorara o dhcp ---
 
 # se a gente tiver muito loco pra fazer:
 opçao de modificaçao pro dhcp ---
