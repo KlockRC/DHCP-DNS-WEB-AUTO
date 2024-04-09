@@ -78,7 +78,7 @@ menuopncentralral(){
                     1)
                         echo "IP"
                         sleep 1
-                        ip
+                        ipSTA
                         ;;
                     2)
                         echo "configuraçao de source.list"
@@ -787,7 +787,7 @@ DNS(){
 
 
 #configuraçao de ip da maquina
-ip(){
+ipSTA(){
      echo "------------------------------------IP-MENU-------------------------------"
             echo "[ 1 - ip fixo ]"
             echo ""
