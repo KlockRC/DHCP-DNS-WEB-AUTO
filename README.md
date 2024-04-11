@@ -13,6 +13,10 @@ menu DHCP ta escrito DNS ---
 arrumar os command ---
 formata lista pelo script ---
 arrumar o quota ---
+colocar docker ---
+colocar zabbix-server e zabbix agente ---
+colocar mariadb caso suba um container de sql  ---
+colocar containers pre configurados ---
  ---
 
 # se a gente tiver muito loco pra fazer:
