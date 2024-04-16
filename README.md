@@ -20,5 +20,4 @@ colocar containers pre configurados ---
  ---
 
 # se a gente tiver muito loco pra fazer:
-opçao de modificaçao pro dhcp ---
 site base pra web com git clone ---
