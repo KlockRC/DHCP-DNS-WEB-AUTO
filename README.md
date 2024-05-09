@@ -18,6 +18,8 @@ colocar zabbix-server e zabbix agente ---
 colocar mariadb caso suba um container de sql  ---
 colocar containers pre configurados ---
  arrumar o email/webmail ---
+ colocar funçao devops ---
+ terraform azure/aws ---
 
 # se a gente tiver muito loco pra fazer:
 site base pra web com git clone ---
