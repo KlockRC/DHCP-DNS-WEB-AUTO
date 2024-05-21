@@ -20,6 +20,7 @@ colocar containers pre configurados ---
  arrumar o email/webmail ---
  colocar funçao devops ---
  terraform azure/aws ---
+ terraform kubernets/conatiner/banco de dados ---
 
 # se a gente tiver muito loco pra fazer:
 site base pra web com git clone ---
